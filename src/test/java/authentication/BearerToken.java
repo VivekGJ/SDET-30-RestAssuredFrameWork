@@ -25,6 +25,9 @@ public class BearerToken
 		.when().post("/user/repos")
 		.then().assertThat().statusCode(201)
 		.log().all();
+
+
+
 	}
 
 }
